@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Dashboard</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+
+    <!-- Base de datos -->
+		<script src="./js/data.js"></script>
+    <!-- Aquí va tus archivos JS -->
+    <script src="./js/app.js"></script>
+
+    <div id="logo">
+    <button id="button-logo" type="button" name="logo"><img src="./assets/images/icono.png" alt="Laboratoria"></button>
+    <div id="radio">
+      <input type="radio" id="aqp" name="contact" value="ARQ">
+      <label for="arq">AQP</label>
+      <input type="radio" id="cdmx" name="contact" value="CDMX">
+      <label for="cdmx">CDMX</label>
+      <input type="radio" id="lima" name="contact" value="LIMA">
+      <label for="lima">LIMA</label>
+      <input type="radio" id="scl" name="contact" value="SCL">
+      <label for="scl">SCL</label>
+    </div>
+    </div>
+
+     <div class="container">
+       <div id="container-list">
+         <a href="http://www.laboratoria.la/"><img id="nombre" src="./assets/images/logo.png" alt="nombre"></a>
+       </div>
+     </div>
+
+     </div>
+     <div id="botones">
+       <input id="boton1" type="button" name="overview" value="OVERVIEW" class="boton" onclick="overview()"></input>
+       <input id="boton2" type="button" name="students" value="STUDENTS"  class="boton" onclick="students()"></input>
+       <input id="boton3"type="button" name="teachers" value="TEACHERS" class="boton"></input>
+     </div>
+
+     <section id="total"></section>
+
+     <div id="chart_div">
+        <canvas id="canvas" width="300" height="300"></canvas>
+     </div>
+
+     <div id="img1">
+       <img src="./assets/images/graph.png" alt="grafica"
+     </div>
+     <div id="img2">
+       <img src="./assets/images/graph.png" alt="grafica">
+     </div>   
+
+  </body>
+</html>

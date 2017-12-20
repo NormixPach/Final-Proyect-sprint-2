@@ -1,0 +1,48 @@
+/*
+ * Estilos de tu proyecto
+ */
+*{
+  margin: 0;
+  padding: 0;
+}
+#logo #button-logo{
+  border-radius: 50px;
+  float: right;
+}
+#logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  float: right;
+}
+#logo
+#radio{
+  background-color: #e3b72d;
+  height: 50px;
+
+  float: right;
+}
+.container #container-list #nombre{
+  width: 400px;
+  height: 100px;
+  margin-left: 35%;
+  display: inline;
+}
+
+#botones{
+  margin-left: 40%;
+  width: 400px;
+  height: 100px;
+}
+.boton1{
+  color: #e3b72d;
+}
+#chart_div{
+  margin-left: 200px;
+  position: absolute;
+}
+#img1{
+  width: 500px;
+  height: 400px;
+  float: right;
+}
